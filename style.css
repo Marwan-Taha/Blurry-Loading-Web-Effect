@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?familiy=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url('atomic-habits_gallery_hi-res_01.jpg') no-repeat center center/cover;
+    position: absolute;
+    /* Focus here */
+    top:-30px;
+    left: -30px;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+    /* focus here */
+}
+
+.loading-text{
+    font-size: 2em;
+    color: black;
+}
